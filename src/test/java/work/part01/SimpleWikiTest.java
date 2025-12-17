@@ -17,7 +17,13 @@ public class SimpleWikiTest {
     @Test
     void test02() {
         open("https://ru.wikipedia.org/wiki/Selenium");
-        $("body").shouldHave(text("Selenide"));
+        $("body").shouldHave(text("Selenium"));
+        //sleep(2000);
+    }
+    @Test
+    void test03() {
+        open("https://slqa.ru/cases/SimpleForm");
+        $("body").shouldHave(text("Томас Фуллер"));
         //sleep(2000);
     }
 }
