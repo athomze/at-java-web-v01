@@ -11,7 +11,7 @@ public class FlightsListPage {
     SelenideElement
             flightsTable = $("#flightsTable"),
             registerButton = $x("//button[.='Зарегистрироваться']");
-
+// 8й         newSearchButton = $x("//button[@class='new-serch-button']");
     @Step("Выбираем первый рейс в списке")
     public void registerToFirstFlight() {
         this.registerButton.click();

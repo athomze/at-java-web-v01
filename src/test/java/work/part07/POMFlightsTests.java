@@ -103,3 +103,9 @@ public class POMFlightsTests {
         registrationPage.isErrorFillAllFied();
     }
 }
+//7. Проверка, что при поиске даты в правилом - ошибка
+
+
+//8. не нашдены рейсы возврат найден рейс регистрация
+@Test
+void test08

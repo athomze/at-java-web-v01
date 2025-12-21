@@ -50,3 +50,4 @@ public class RegistrationPage {
         this.message.shouldHave(text("Пожалуйста, заполните все поля."));
     }
 }
+//8й

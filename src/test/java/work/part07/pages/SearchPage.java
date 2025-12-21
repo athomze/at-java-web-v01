@@ -35,7 +35,10 @@ public class SearchPage {
         this.message.shouldHave(text("Пожалуйста, укажите дату вылета."));
     }
 }
-
+//    @Step("Проверка, что дата в прошлом нет")
+//public void isDepartureDateEmpty() {
+//    this.message.shouldHave(text("Пожалуйста, укажите дату вылета."));
+//}
     private String makeDateCorrect(String date) {
         if (Configuration.browser == "firefox" && date.length() == 10)
             String[] parts = date.split("-");
